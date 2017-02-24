@@ -15,6 +15,7 @@
   "author": "Pankaj K Jain",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.14.1",
     "mongodb": "^2.2.22",
     "pg": "6.1.2"
   },
