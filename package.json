@@ -1,0 +1,23 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "saleforce to mlab cloud integration",
+  "main": "index.js",
+  "scripts": {
+    "start": "node finalapp.js",
+    "test": "node pg_mongodb.js"
+  },
+  "keywords": [
+    "node.js",
+    "heroku",
+    "heroku-connect"
+  ],
+  "author": "Pankaj K Jain",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.1",
+    "mongodb": "^2.2.22",
+    "pg": "6.1.2"
+  },
+  "devDependencies": {}
+}
