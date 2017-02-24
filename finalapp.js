@@ -4,16 +4,16 @@ var MongoClient = require('mongodb').MongoClient;
 var assert = require('assert');
 var ObjectId = require('mongodb').ObjectID;
 var url = 'mongodb://allapurnima:ice12345@ds151909.mlab.com:51909/iceteam';
-
+//pg.defaults.ssl = true;
 var pl;
 var express = require('express');
 
 var app = express();
-const PORT = process.env.PORT || 5000;
+//const PORT = process.env.PORT || 3000;
 
-app.listen(PORT, () => {
-    console.log(`Our app is running on port ${ PORT }`);
-});
+//app.listen(PORT, () => {
+ //   console.log(`Our app is running on port ${ PORT }`);
+//});
 
 pg.connect(process.env.DATABASE_URL, function(err, client) {
     if(err) {
